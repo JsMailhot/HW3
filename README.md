@@ -1,4 +1,4 @@
-# HW7
+# HW7 - https://github.com/JsMailhot/HW7
 ## Determine HOW the AnimalClassTester can be modified so that is can be closed for modification.
 #### AnimalClassTester can be modified so that it can be closed for modification by utilizing an abstract class parameter of Animal to handle all different variations of the extended Animal class.
 
@@ -17,5 +17,5 @@
 ## Write the TreeClimbingOctopus class.
 #### The TreeClimbingOctopus class can be written using the same abstract Animal class that the other animals use.
 
-### You have succeeded if:
+## You have succeeded if:
 #### If the AnimalClassTester does not need to be modified to test the TreeClimbingOctopus class.
