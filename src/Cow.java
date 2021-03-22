@@ -1,14 +1,16 @@
-public class Cow {
-	public String aboutMe() {
+public class Cow extends Animal {
+	@Override
+	public String name() {
 		return "Cow";
 	}
-	
+
+	@Override
 	public String diet() {
 		return "grass, hay, and corn";
 	}
 	
-	public String produces() {
+	@Override
+	public String does() {
 		return "milk and cheese";
 	}
-
 }

@@ -1,15 +1,16 @@
-public class Tyrannosaur {
-	
-	public String getName() {
+public class Tyrannosaur extends Animal  {
+	@Override
+	public String name() {
 		return "Tyranosaurus Rex";
 	}
-	
-	public String roar() {
-		return "Roarrrr!";
-	}
-	
-	public String myFood() {
-		return "other dinosaurs";
+
+	@Override
+	public String diet() {
+		return "Tyranosaurus Rex";
 	}
 
+	@Override
+	public String does() {
+		return "Roarrrr!";
+	}
 }

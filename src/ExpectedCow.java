@@ -1,14 +1,16 @@
-public class ExpectedCow {
-	public String expectedName() {
+public class ExpectedCow extends Animal  {
+	@Override
+	public String name() {
 		return "Cow";
 	}
-	
-	public String expectedFood() {
+
+	@Override
+	public String diet() {
 		return "grass, hay, and corn";
 	}
-	
-	public String expectedInfo() {
+
+	@Override
+	public String does() {
 		return "milk and cheese";
 	}
-
 }

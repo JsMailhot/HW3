@@ -1,14 +1,16 @@
-public class Penguin {
-	public String flightless() {
+public class Penguin extends Animal  {
+	@Override
+	public String name() {
 		return "penguin";
 	}
-	
-	public String IEat() {
+
+	@Override
+	public String diet() {
 		return "mostly fish";
 	}
-	
-	public String movement() {
+
+	@Override
+	public String does() {
 		return "waddle and swim";
 	}
-
 }
