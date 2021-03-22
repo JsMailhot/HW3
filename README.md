@@ -1,21 +1,27 @@
-# HW7 - https://github.com/JsMailhot/HW7
-## Determine HOW the AnimalClassTester can be modified so that is can be closed for modification.
-#### AnimalClassTester can be modified so that it can be closed for modification by utilizing an abstract class parameter of Animal to handle all different variations of the extended Animal class.
+# HW7
+## A link to your group's GitHub account which will have your group's source code
+#### https://github.com/JsMailhot/HW7
 
-## Determine HOW the different animal classes are similar.
-#### Different animal classes are similar in that they all have three parts, a name, a food, and an action.
+## Describe any problems your group had writing the code
+#### The only problems that I had writing the code is finding which way I preferred to accomplish the goals
 
-## Determine HOW you to make the existing animal classes polymorphic.
-#### Existing animal classes can be modified to incorperate the abstract Animal class and its abstract functions which perform the same functions as what is already included but with different names sometimes.
+## Did you change the classes that were tested?  Why or why not?
+#### I changed the classes that were tested because they needed to utilize the abstract class' abstract functions to work with polymorphism
 
-## Refactor the various animal classes.
-#### The various animal classes can be refactored by changing them to extend the abstract Animal class and utilize its various asbtract functions.
+## Describe your team's solution.  Explain how it meets the criteria given.
+#### The solution meets the criteria by extending the animal classes with an abstract class and giving the tests the ability to work with any class that extends the abstract class
 
-## Refactor the AnimalClassTester class to use polymorphism when testing an object.
-#### AnimalClassTester can be refactored to use the abstract Animal class as a parameter thus allowing any class extended with the asbtract Animal class to be used with it.
+## Do you think unit testing is important? Why or why not?
+#### Unit testing is important because it points out problems in code and allows for corrections to be made so code works as intended
 
-## Write the TreeClimbingOctopus class.
-#### The TreeClimbingOctopus class can be written using the same abstract Animal class that the other animals use.
+## Name 3 key parts of the Observer pattern
+#### The three main components of the Observer pattern are the Subject, Observer and Client
 
-## You have succeeded if:
-#### If the AnimalClassTester does not need to be modified to test the TreeClimbingOctopus class.
+## When would you use the Observer pattern?  What problem does it solve?
+#### The Observer pattern is best utilized when testing similar components of multiple subclasses that utilize polymorphism as it solves the problem of adding new classes for testing by being dynamic
+
+## Name 3 key parts of the Strategy pattern
+#### The three main components of the Strategy pattern are the Context, Strategy and ConcreteStrategy
+
+## When would you use the Strategy pattern?  What problem does it solve?
+#### The Strategy pattern is best utilized when testing multiple different interface components during a test as it works well with that specific format of polymorphism which allows you to write more clean and concise code
